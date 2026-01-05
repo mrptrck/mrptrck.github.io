@@ -79,7 +79,7 @@ CustomProperties.update();
 
 const ToggleMode = {
     html: document.documentElement,
-    logo: document.getElementById('logo'),
+    logo: document.getElementById('js-toggle'),
 
     init: function() {
         if (ToggleMode.logo) {

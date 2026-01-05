@@ -10,6 +10,8 @@
     &__inner {
         @include lateral-spacing;
 
+        display: flex;
+        justify-content: space-between;
         text-align: center;
     }
 }
