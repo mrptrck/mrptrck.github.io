@@ -348,8 +348,12 @@ html.dark-mode .toggle {
   }
 }
 .name {
-  font-size: 50px;
+  width: 100%;
+  font-size: 70px;
   line-height: 1;
+}
+.name span {
+  text-align: center;
 }
 .name::before {
   position: absolute;
@@ -364,7 +368,7 @@ html.dark-mode .toggle {
   overflow: hidden;
 }
 html.dark-mode .name {
-  text-shadow: #af9862 1px 0 6px;
+  text-shadow: #fff 1px 0 6px;
   color: #18181a;
 }
 html.dark-mode .name:hover {
@@ -391,6 +395,22 @@ html.light-mode .name:hover {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
+.portrait {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 31.25rem;
+  height: calc(var(--vh) * 100 - var(--hh));
+  margin-right: auto;
+  margin-left: auto;
+}
+.portrait img {
+  width: 100%;
+  margin: auto;
+  padding: 0.9375rem;
+  border-radius: 50%;
+}
+
 .header {
   padding-top: 0.9375rem;
 }

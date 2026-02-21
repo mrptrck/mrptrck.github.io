@@ -9,8 +9,13 @@
     // line-height: 1;
     // cursor: pointer;
 
-    font-size: 50px;
+    width: 100%;
+    font-size: 70px;
     line-height: 1;
+
+    span {
+        text-align: center;
+    }
 
     &::before {
         //content: '';
@@ -27,8 +32,9 @@
     }
 
     html.dark-mode & {
-        text-shadow: $highlight-color 1px 0 6px;
-        color: $global-bg-dark;
+        // text-shadow: $highlight-color 1px 0 6px;
+        text-shadow: $color-white 1px 0 6px;
+            color: $global-bg-dark;
 
         &:hover {
             text-shadow: $color-white 1px 0 6px;
